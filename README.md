@@ -15,7 +15,8 @@ Añadir el plugin al pom.xml dentro de la etiqueta ```<plugins>```
 Comando para ejecutar pitest en el cmd ```mvn org.pitest:pitest-maven:mutationCoverage```
 A los cambios que genera pitest se le llaman  Mutantes/Mutaciones.
 
-*Nota: El comando se debe ejecutar en la carpeta raiz del proyecto.*
+**Nota: El comando se debe ejecutar en la carpeta raiz del proyecto.**
+
 * Si las pruebas pasan al ejecutarse sobre el mutante, el mutante sobrevive.
 * Si las pruebas no pasan al ejecutarse sobre el mutante, el mutante muere
 
